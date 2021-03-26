@@ -1,0 +1,314 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+input, textarea {
+    color: #727272;
+    font-size: 14px;
+}
+
+input {
+    border: none;
+    padding: 18px 0;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+textarea {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+}
+
+h5 {
+    margin: 0;
+    font-size: 21px;
+}
+
+/* header */
+
+header {
+    background-image: url("images/EK740DzVlWo.jpg");
+    max-height: 700px;
+    margin-bottom: 161px;
+}
+
+#head {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 60px;
+    position: relative;
+}
+
+#logo > h2 {
+    margin: 0;
+    font-family: Revalia;
+    font-size: 48px;
+    color: #34547A;
+}
+
+
+.menu {
+    font-weight: bold;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    justify-content: space-around;
+}
+
+.menu ul > li {
+    list-style: none;
+
+}
+
+.menu-link {
+    display: flex;
+    color: #000000;
+    font-size: 16px;
+}
+
+.active {
+    color: #34547A;
+}
+
+.menu-link:hover {
+    color: #34547A;
+}
+
+/* main */
+
+#design {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.text {
+    margin-bottom: 57px;
+    max-height: 297px;
+}
+
+.text h2 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.text h3 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.text p {
+    margin-bottom: 41px;
+    color: #727272;
+    font-size: 16px;
+    line-height: 164%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    background-color: #34547A;
+    max-height: 65px;
+    padding: 20px 35px;
+    border-radius: 32px;
+    color: #ffff;
+    transition: all 0.3s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+
+.btn:hover {
+    border: black 1px solid;
+    background-color: #ffff;
+    color: #34547A;
+    transition: all 0.3s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.general_content, #video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.general_content, #video {
+    text-align: center;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#experience {
+    background-color: #34547A;
+    margin-top: 50px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.project-item {
+    color: #ffff;
+    display: flex;
+}
+
+.project-item p {
+    margin: 0;
+}
+
+#skills {
+    display: flex;
+    padding: 100px 0;
+    align-items: center;
+}
+
+#skills h3 {
+    margin-bottom: 49px;
+    font-size: 32px;
+}
+
+#skills img {
+    max-width: 500px;
+    max-height: 450px;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill p {
+    color: #727272;
+}
+
+.level {
+    display: flex;
+}
+
+.right {
+    width: 340px;
+    height: 4px;
+    background: #34547A;
+}
+
+.left {
+    width: 70px;
+    height: 4px;
+    background: #C4C4C4;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#photos {
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+    padding: 0;
+    margin-top: 128px;
+}
+
+#top, #bottom {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    max-height: 50%;
+}
+
+.photo {
+    padding: 0;
+}
+
+.photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+
+.message {
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    padding-right: 0px;
+    padding-left: 0;
+    width: 50%;
+}
+
+#submit {
+    margin-top: 50px;
+}
+
+#footer {
+    margin-top: 10%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #34547A;
+}
+
+#footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#creater {
+    color: #ffff;
+}
+
+#creater h4 {
+    margin: 20px 0;
+}
+
+#creater p {
+    font-size: 13px;
+}
+
+#social_network {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
